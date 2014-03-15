@@ -55,7 +55,7 @@ typedef struct {
 
 	int buffering;
 	int buflen;
-	char buffer[8192];
+	char buffer[128 * 1024];
 
 	float volume;
 } shairplay_session_t;
